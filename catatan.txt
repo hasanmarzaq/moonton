@@ -1,0 +1,38 @@
+kursus laravel dan react
+
+
+backend (laravel 9)
+-laravel breeze
+-inertia
+-spatie
+-mindrans
+
+
+frontend(react js)
+
+
+
+css tailwind
+
+
+
+tutor 1 instalasi laravel
+- composer create-project laravel/laravel moonton
+-create db dengan nama moonton
+-ubah di .env DB_DATABASE=moonton
+-php artisan migrate
+
+
+install git flow
+-wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh install stable | bash
+-git flow init
+
+
+instalasi breeze
+-git flow feature start boilerplate
+-composer require laravel/breeze --dev
+-php artisan breeze:install
+-php artisan breeze:install react
+-npm install
+-npm run dev
+
