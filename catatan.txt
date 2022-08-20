@@ -33,6 +33,16 @@ instalasi breeze
 -composer require laravel/breeze --dev
 -php artisan breeze:install
 -php artisan breeze:install react
+-php artisan migrate
 -npm install
 -npm run dev
+
+
+install spatie
+- composer require spatie/laravel-permission
+tambah di dalam config/app.php file
+-'providers' => [
+    // ...
+    Spatie\Permission\PermissionServiceProvider::class,
+]; 
 
